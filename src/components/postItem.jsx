@@ -4,7 +4,7 @@ import Button from "./UI/button/button";
 const PostItem = (props) => {
   return (
     <div className="post">
-      <div className="post_content">
+      <div style={{ marginRight:'15px' }} className="post_content">
         <strong>{props.number}. {props.post.title}</strong>
         <div>
           {props.post.body}
